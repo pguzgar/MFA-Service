@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource auth="Container" autoreconnection="true"
+		driverClassName="com.mysql.jdbc.Driver" factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		maxTotal="20" maxIdle="1" maxOpenPreparedStatements="250" maxWaitMillis="30000"
+		name="jdbc/mfaDS" poolPreparedStatements="true"
+		removeAbandoed="true" removeAbandonedTimeout="120" type="javax.sql.DataSource"
+		url="jdbc:mysql://localhost:3306/mfa_service?autoReconnect=true"
+		username="mfaservice" password="mf4s3rv1c3!" validationQuery="select 1;" />
+</Context>
