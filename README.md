@@ -1,6 +1,6 @@
 # MFA-Service
 
-Configure the port where the service will be exposed in `applicationContext.xml`
+You can configure the port where the service will be exposed in `applicationContext.xml`
 
 WSDL URL Example:
 ######`http://localhost:8180/mfa/MFAService?wsdl`
